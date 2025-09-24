@@ -13,6 +13,7 @@ drawable mainbkg
 drawable outline_boy_24
 drawable outline_cloud_lock_24
 drawable outline_crossword_24
+drawable outline_deskphone_24
 drawable signimg
 drawable tab_bkg
 drawable viewpage_bkg
@@ -22,6 +23,7 @@ id login_email
 id login_password
 id main
 id nome
+id numero
 id signup_button
 id signup_confirm
 id signup_email
@@ -30,6 +32,7 @@ id tab_layout
 id text_go_to_login
 id text_go_to_signup
 id view_pager
+layout activity_home
 layout activity_main
 layout authentication_activity
 layout fragment_logintabfragment
@@ -37,8 +40,14 @@ layout fragment_signuptabfragment
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hello_blank_fragment
 string n_o_tem_cadastro_cadastre_se_aqui
+string project_id
 style Base.Theme.TelaDeCadastro
 style Theme.TelaDeCadastro
 xml backup_rules
