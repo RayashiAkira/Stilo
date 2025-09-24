@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="lavender">#8692f7</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Eco Match</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="n_o_tem_cadastro_cadastre_se_aqui">Não tem cadastro? Cadastre-se aqui.</string>
+    <style name="Base.Theme.TelaDeCadastro" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/lavender</item>
+        <item name="colorPrimaryVariant">@color/lavender</item>
+        
+        
+    </style>
+    <style name="Theme.TelaDeCadastro" parent="Base.Theme.TelaDeCadastro"/>
+</resources>

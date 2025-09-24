@@ -19,6 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Tela de Cadastro"
+rootProject.name = "Eco Match"
 include(":app")
- 
