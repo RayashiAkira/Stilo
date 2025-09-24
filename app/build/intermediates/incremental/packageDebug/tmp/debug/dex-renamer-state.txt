@@ -1,4 +1,4 @@
-#Tue Sep 23 20:44:29 BRT 2025
+#Wed Sep 24 12:04:49 BRT 2025
 base.0=C\:\\Users\\Pichau\\AndroidStudioProjects\\EcoMatch\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\Pichau\\AndroidStudioProjects\\EcoMatch\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\Pichau\\AndroidStudioProjects\\EcoMatch\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex

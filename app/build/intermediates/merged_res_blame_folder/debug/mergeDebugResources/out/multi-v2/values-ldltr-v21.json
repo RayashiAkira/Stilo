@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.teladecadastro.app-mergeDebugResources-29:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "com.example.teladecadastro.app-mergeDebugResources-38:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Pichau\\.gradle\\caches\\8.13\\transforms\\83e941ee69614f9338ea3c6574ca7276\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\Pichau\\.gradle\\caches\\8.13\\transforms\\e37a1e3d70ac6c8799d9b96dca929152\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

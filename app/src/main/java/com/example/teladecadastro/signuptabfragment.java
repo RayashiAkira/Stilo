@@ -1,55 +1,91 @@
 package com.example.teladecadastro;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class signuptabfragment extends Fragment {
 
     private static final String TAG = "SignupFragment";
+    private EditText nameEditText, emailEditText, passwordEditText, confirmPasswordEditText;
+    private Button signupButton;
+    private TextView goToLoginText;
+    private FirebaseAuth mAuth;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_signuptabfragment, container, false);
 
-        Button signupButton = view.findViewById(R.id.signup_button);
-        TextView goToLoginText = view.findViewById(R.id.text_go_to_login);
+        // Inicializar a instância do Firebase Auth
+        mAuth = FirebaseAuth.getInstance();
 
-        Log.d(TAG, "onCreateView: goToLoginText is " + (goToLoginText == null ? "NULL" : "NOT NULL"));
+        nameEditText = view.findViewById(R.id.nome);
+        emailEditText = view.findViewById(R.id.signup_email);
+        passwordEditText = view.findViewById(R.id.signup_password);
+        confirmPasswordEditText = view.findViewById(R.id.signup_confirm);
+        signupButton = view.findViewById(R.id.signup_button);
+        goToLoginText = view.findViewById(R.id.text_go_to_login);
 
         signupButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d(TAG, "Signup button clicked");
-                // Lógica de cadastro
+                String email = emailEditText.getText().toString().trim();
+                String password = passwordEditText.getText().toString().trim();
+                String confirmPassword = confirmPasswordEditText.getText().toString().trim();
+
+                if (email.isEmpty() || password.isEmpty() || confirmPassword.isEmpty()) {
+                    Toast.makeText(getContext(), "Por favor, preencha todos os campos.", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                if (!password.equals(confirmPassword)) {
+                    Toast.makeText(getContext(), "As senhas não coincidem.", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                // Chamar o método de criação de usuário do Firebase
+                mAuth.createUserWithEmailAndPassword(email, password)
+                        .addOnCompleteListener(getActivity(), task -> {
+                            if (task.isSuccessful()) {
+                                // Cadastro bem-sucedido
+                                Log.d(TAG, "createUserWithEmail:success");
+                                Toast.makeText(getContext(), "Cadastro realizado com sucesso!", Toast.LENGTH_SHORT).show();
+
+                                // Navegar de volta para a tela de login
+                                if (getActivity() instanceof AuthenticationActivity) {
+                                    ((AuthenticationActivity) getActivity()).navigateToLogin();
+                                }
+                            } else {
+                                // Se o cadastro falhar, exibir uma mensagem ao usuário
+                                Log.w(TAG, "createUserWithEmail:failure", task.getException());
+                                Toast.makeText(getContext(), "Falha no cadastro. Tente novamente.", Toast.LENGTH_SHORT).show();
+                            }
+                        });
             }
         });
 
-        // ...
         if (goToLoginText != null) {
             goToLoginText.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Log.d(TAG, "goToLoginText CLICADO!");
                     if (getActivity() != null) {
-                        Log.d(TAG, "Activity: " + getActivity().getClass().getSimpleName());
-                        // ***** CORREÇÃO AQUI *****
                         if (getActivity() instanceof AuthenticationActivity) {
-                            Log.d(TAG, "Chamando navigateToLogin() na AuthenticationActivity...");
                             ((AuthenticationActivity) getActivity()).navigateToLogin();
-                        } else {
-                            Log.e(TAG, "ERRO: A Activity não é uma instância de AuthenticationActivity! É: " + getActivity().getClass().getName());
                         }
-                    } else {
-                        Log.e(TAG, "ERRO: getActivity() retornou NULL!");
                     }
                 }
             });

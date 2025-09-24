@@ -16,64 +16,76 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_marginTop="20dp"
+            android:orientation="vertical"
             android:padding="20dp">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="180dp"
-                android:src="@drawable/signimg"/>
+                android:src="@drawable/signimg" />
 
             <EditText
+                android:id="@+id/nome"
                 android:layout_width="300dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:id="@+id/nome"
                 android:layout_marginTop="30dp"
-                android:padding="2dp"
-                android:hint="Nome de Usuário"
+                android:background="@drawable/edittext_bkg"
                 android:drawableLeft="@drawable/outline_boy_24"
                 android:drawablePadding="2dp"
-                android:background="@drawable/edittext_bkg"/>
+                android:hint="Nome de Usuário"
+                android:padding="2dp" />
 
             <EditText
+                android:id="@+id/numero"
                 android:layout_width="300dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:id="@+id/signup_email"
                 android:layout_marginTop="30dp"
-                android:padding="8dp"
-                android:hint="Email"
+                android:background="@drawable/edittext_bkg"
+                android:drawableLeft="@drawable/outline_deskphone_24"
+                android:drawablePadding="8dp"
+                android:hint="Telefone"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/signup_email"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_bkg"
                 android:drawableLeft="@drawable/baseline_email_24"
                 android:drawablePadding="8dp"
-                android:background="@drawable/edittext_bkg"/>
+                android:hint="Email"
+                android:padding="8dp" />
 
             <EditText
+                android:id="@+id/signup_password"
                 android:layout_width="300dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:id="@+id/signup_password"
                 android:layout_marginTop="30dp"
-                android:padding="8dp"
-                android:hint="Senha"
-                android:inputType="textPassword"
+                android:background="@drawable/edittext_bkg"
                 android:drawableLeft="@drawable/outline_cloud_lock_24"
                 android:drawablePadding="8dp"
-                android:background="@drawable/edittext_bkg"/>
+                android:hint="Senha"
+                android:inputType="textPassword"
+                android:padding="8dp" />
 
             <EditText
+                android:id="@+id/signup_confirm"
                 android:layout_width="300dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:id="@+id/signup_confirm"
                 android:layout_marginTop="30dp"
-                android:padding="8dp"
-                android:hint="Confirme a Senha"
-                android:inputType="textPassword"
+                android:background="@drawable/edittext_bkg"
                 android:drawableLeft="@drawable/outline_crossword_24"
                 android:drawablePadding="8dp"
-                android:background="@drawable/edittext_bkg"/>
+                android:hint="Confirme a Senha"
+                android:inputType="textPassword"
+                android:padding="8dp" />
 
             <Button
                 android:id="@+id/signup_button"
@@ -81,11 +93,11 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
+                android:background="@drawable/canto_arredondados"
                 android:paddingTop="12dp"
                 android:paddingBottom="12dp"
                 android:text="Cadastro"
-                android:textSize="18sp"
-                android:background="@drawable/canto_arredondados"/> <!-- Use seu drawable de cantos arredondados -->
+                android:textSize="18sp" /> <!-- Use seu drawable de cantos arredondados -->
 
             <TextView
                 android:id="@+id/text_go_to_login"
@@ -93,11 +105,11 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="24dp"
+                android:clickable="true"
+                android:focusable="true"
                 android:text="Já tem uma conta? Faça login."
                 android:textColor="@color/lavender"
-                android:textSize="16sp"
-                android:clickable="true"
-                android:focusable="true" />
+                android:textSize="16sp" />
 
         </LinearLayout>
 

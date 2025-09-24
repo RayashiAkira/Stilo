@@ -4,8 +4,14 @@
     <color name="lavender">#8692f7</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Eco Match</string>
+    <string name="gcm_defaultSenderId" translatable="false">527754977851</string>
+    <string name="google_api_key" translatable="false">AIzaSyAfvwxA6RkJFmQDsYNYdYcudLEfFv0vLjI</string>
+    <string name="google_app_id" translatable="false">1:527754977851:android:5ba32a84264e3db66ab21e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAfvwxA6RkJFmQDsYNYdYcudLEfFv0vLjI</string>
+    <string name="google_storage_bucket" translatable="false">device-streaming-fbaf487b.firebasestorage.app</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="n_o_tem_cadastro_cadastre_se_aqui">Não tem cadastro? Cadastre-se aqui.</string>
+    <string name="project_id" translatable="false">device-streaming-fbaf487b</string>
     <style name="Base.Theme.TelaDeCadastro" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/lavender</item>
         <item name="colorPrimaryVariant">@color/lavender</item>
