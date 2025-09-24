@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">Tela de Cadastro</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name">Eco Match</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="n_o_tem_cadastro_cadastre_se_aqui">Não tem cadastro? Cadastre-se aqui.</string>
 </resources>
