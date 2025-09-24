@@ -3433,7 +3433,6 @@ id north
 id notification_background
 id notification_main_column
 id notification_main_column_container
-id numero
 id off
 id on
 id onInterceptTouchReturnSwipe
@@ -3562,6 +3561,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id telefone
 id text
 id text2
 id textEnd

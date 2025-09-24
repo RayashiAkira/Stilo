@@ -38,7 +38,7 @@
                 android:padding="2dp" />
 
             <EditText
-                android:id="@+id/numero"
+                android:id="@+id/telefone"
                 android:layout_width="300dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
@@ -47,6 +47,7 @@
                 android:drawableLeft="@drawable/outline_deskphone_24"
                 android:drawablePadding="8dp"
                 android:hint="Telefone"
+                android:inputType="phone"
                 android:padding="8dp" />
 
             <EditText
@@ -97,7 +98,7 @@
                 android:paddingTop="12dp"
                 android:paddingBottom="12dp"
                 android:text="Cadastro"
-                android:textSize="18sp" /> <!-- Use seu drawable de cantos arredondados -->
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/text_go_to_login"

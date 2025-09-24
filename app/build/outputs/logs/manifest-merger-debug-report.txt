@@ -16,10 +16,14 @@ MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Pichau\.
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\Pichau\.gradle\caches\8.13\transforms\c613470d2c60b6a7f7a7be4d09cc3eff\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\5ba1dbdbc8d9bfee8c9b7e4ee35db2b2\transformed\recaptcha-18.6.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\2dad16deff014af4a59791a3b5b9eca1\transformed\integrity-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\cc3e4a8429ca4db540bacac99b3746c9\transformed\firebase-firestore-ktx-25.0.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\51377645727de15dc9fd8a68bea107ef\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\cdce3d73fea23a739efa13ae01f0e306\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:15:1-25:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\b1fb8844bec9a5c0ed642387f491700a\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\f604fd4c661a2ea36944234808470327\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\1a968ec80d279fce87918865758033f3\transformed\firebase-common-21.0.0\AndroidManifest.xml:15:1-41:12
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\2079763824f576cd4973a6565260e825\transformed\play-services-fido-20.1.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\7f2da226b80f6a257f7008a2fe0f53d3\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Pichau\.gradle\caches\8.13\transforms\5c2b94a15fd86a550105a7ee87745689\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\e4a58aa6b8d2f959564ce94696e82463\transformed\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\80d09b3a270748f914747804056b6cd5\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
@@ -64,7 +68,9 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Pichau\.gradle\c
 MERGED from [androidx.print:print:1.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\d521d03949e1600de1d5658504b9fcbc\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\efaa0bea8fefa59e1b49247f40fb1c1d\transformed\annotation-experimental-1.3.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\c28322ada02b43c55d244fe5e10adbbd\transformed\googleid-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\Pichau\.gradle\caches\8.13\transforms\7b641afe0e14806ffbf2ba38a23f91fd\transformed\grpc-android-1.57.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Pichau\.gradle\caches\8.13\transforms\68859d0ef7d91e6dad46ceb64d8b2706\transformed\core-common-2.0.3\AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\6febd0e56bc7bbd1dd6c729b6b20a377\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 	package
 		INJECTED from C:\Users\Pichau\AndroidStudioProjects\EcoMatch\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -90,10 +96,16 @@ MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Pichau\.
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\2dfdb41c5397e82f98ec1bd0edbe8aaf\transformed\play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\2dad16deff014af4a59791a3b5b9eca1\transformed\integrity-1.3.0\AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\2dad16deff014af4a59791a3b5b9eca1\transformed\integrity-1.3.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\cc3e4a8429ca4db540bacac99b3746c9\transformed\firebase-firestore-ktx-25.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\cc3e4a8429ca4db540bacac99b3746c9\transformed\firebase-firestore-ktx-25.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\51377645727de15dc9fd8a68bea107ef\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\51377645727de15dc9fd8a68bea107ef\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:13:5-24:19
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\cdce3d73fea23a739efa13ae01f0e306\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\cdce3d73fea23a739efa13ae01f0e306\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\b1fb8844bec9a5c0ed642387f491700a\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\b1fb8844bec9a5c0ed642387f491700a\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\f604fd4c661a2ea36944234808470327\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\f604fd4c661a2ea36944234808470327\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\1a968ec80d279fce87918865758033f3\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
 MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\1a968ec80d279fce87918865758033f3\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\2079763824f576cd4973a6565260e825\transformed\play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
@@ -190,14 +202,22 @@ MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Pichau\.gra
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\5ba1dbdbc8d9bfee8c9b7e4ee35db2b2\transformed\recaptcha-18.6.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\2dad16deff014af4a59791a3b5b9eca1\transformed\integrity-1.3.0\AndroidManifest.xml:4:5-44
 MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\2dad16deff014af4a59791a3b5b9eca1\transformed\integrity-1.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\cc3e4a8429ca4db540bacac99b3746c9\transformed\firebase-firestore-ktx-25.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\cc3e4a8429ca4db540bacac99b3746c9\transformed\firebase-firestore-ktx-25.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\51377645727de15dc9fd8a68bea107ef\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\51377645727de15dc9fd8a68bea107ef\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\cdce3d73fea23a739efa13ae01f0e306\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\cdce3d73fea23a739efa13ae01f0e306\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\b1fb8844bec9a5c0ed642387f491700a\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\b1fb8844bec9a5c0ed642387f491700a\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\f604fd4c661a2ea36944234808470327\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\f604fd4c661a2ea36944234808470327\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\1a968ec80d279fce87918865758033f3\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
 MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\1a968ec80d279fce87918865758033f3\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\2079763824f576cd4973a6565260e825\transformed\play-services-fido-20.1.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\2079763824f576cd4973a6565260e825\transformed\play-services-fido-20.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\7f2da226b80f6a257f7008a2fe0f53d3\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\7f2da226b80f6a257f7008a2fe0f53d3\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Pichau\.gradle\caches\8.13\transforms\5c2b94a15fd86a550105a7ee87745689\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Pichau\.gradle\caches\8.13\transforms\5c2b94a15fd86a550105a7ee87745689\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\e4a58aa6b8d2f959564ce94696e82463\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
@@ -286,8 +306,12 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\Pichau\
 MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\efaa0bea8fefa59e1b49247f40fb1c1d\transformed\annotation-experimental-1.3.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\c28322ada02b43c55d244fe5e10adbbd\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\c28322ada02b43c55d244fe5e10adbbd\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\Pichau\.gradle\caches\8.13\transforms\7b641afe0e14806ffbf2ba38a23f91fd\transformed\grpc-android-1.57.2\AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\Pichau\.gradle\caches\8.13\transforms\7b641afe0e14806ffbf2ba38a23f91fd\transformed\grpc-android-1.57.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Pichau\.gradle\caches\8.13\transforms\68859d0ef7d91e6dad46ceb64d8b2706\transformed\core-common-2.0.3\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Pichau\.gradle\caches\8.13\transforms\68859d0ef7d91e6dad46ceb64d8b2706\transformed\core-common-2.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\6febd0e56bc7bbd1dd6c729b6b20a377\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\6febd0e56bc7bbd1dd6c729b6b20a377\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\6174a9bf2877c8a3592f2e480d2f2a57\transformed\firebase-auth-24.0.1\AndroidManifest.xml:23:9-148
 	android:targetSdkVersion
@@ -298,14 +322,20 @@ uses-permission#android.permission.INTERNET
 ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\6174a9bf2877c8a3592f2e480d2f2a57\transformed\firebase-auth-24.0.1\AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\5ba1dbdbc8d9bfee8c9b7e4ee35db2b2\transformed\recaptcha-18.6.1\AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\5ba1dbdbc8d9bfee8c9b7e4ee35db2b2\transformed\recaptcha-18.6.1\AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\51377645727de15dc9fd8a68bea107ef\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\51377645727de15dc9fd8a68bea107ef\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:11:5-67
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\6174a9bf2877c8a3592f2e480d2f2a57\transformed\firebase-auth-24.0.1\AndroidManifest.xml:25:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\6174a9bf2877c8a3592f2e480d2f2a57\transformed\firebase-auth-24.0.1\AndroidManifest.xml:26:5-79
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\5ba1dbdbc8d9bfee8c9b7e4ee35db2b2\transformed\recaptcha-18.6.1\AndroidManifest.xml:8:5-79
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\5ba1dbdbc8d9bfee8c9b7e4ee35db2b2\transformed\recaptcha-18.6.1\AndroidManifest.xml:8:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\51377645727de15dc9fd8a68bea107ef\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\51377645727de15dc9fd8a68bea107ef\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:10:5-79
 MERGED from [androidx.media3:media3-common:1.8.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\76a0265a865f874ab7543b66c209eb4a\transformed\media3-common-1.8.0\AndroidManifest.xml:22:5-79
 MERGED from [androidx.media3:media3-common:1.8.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\76a0265a865f874ab7543b66c209eb4a\transformed\media3-common-1.8.0\AndroidManifest.xml:22:5-79
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\Pichau\.gradle\caches\8.13\transforms\7b641afe0e14806ffbf2ba38a23f91fd\transformed\grpc-android-1.57.2\AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\Pichau\.gradle\caches\8.13\transforms\7b641afe0e14806ffbf2ba38a23f91fd\transformed\grpc-android-1.57.2\AndroidManifest.xml:7:5-79
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\6174a9bf2877c8a3592f2e480d2f2a57\transformed\firebase-auth-24.0.1\AndroidManifest.xml:26:22-76
 activity#com.google.firebase.auth.internal.GenericIdpActivity
@@ -358,6 +388,12 @@ intent-filter#action:name:android.intent.action.VIEW+category:name:android.inten
 ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\6174a9bf2877c8a3592f2e480d2f2a57\transformed\firebase-auth-24.0.1\AndroidManifest.xml:53:13-63:29
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-auth:24.0.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\6174a9bf2877c8a3592f2e480d2f2a57\transformed\firebase-auth-24.0.1\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\cc3e4a8429ca4db540bacac99b3746c9\transformed\firebase-firestore-ktx-25.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\cc3e4a8429ca4db540bacac99b3746c9\transformed\firebase-firestore-ktx-25.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\51377645727de15dc9fd8a68bea107ef\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\51377645727de15dc9fd8a68bea107ef\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\f604fd4c661a2ea36944234808470327\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\f604fd4c661a2ea36944234808470327\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\1a968ec80d279fce87918865758033f3\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
 MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\1a968ec80d279fce87918865758033f3\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
 	android:exported
@@ -428,6 +464,30 @@ uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
 ADDED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\5ba1dbdbc8d9bfee8c9b7e4ee35db2b2\transformed\recaptcha-18.6.1\AndroidManifest.xml:9:5-98
 	android:name
 		ADDED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Pichau\.gradle\caches\8.13\transforms\5ba1dbdbc8d9bfee8c9b7e4ee35db2b2\transformed\recaptcha-18.6.1\AndroidManifest.xml:9:22-95
+meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar
+ADDED from [com.google.firebase:firebase-firestore-ktx:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\cc3e4a8429ca4db540bacac99b3746c9\transformed\firebase-firestore-ktx-25.0.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore-ktx:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\cc3e4a8429ca4db540bacac99b3746c9\transformed\firebase-firestore-ktx-25.0.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\cc3e4a8429ca4db540bacac99b3746c9\transformed\firebase-firestore-ktx-25.0.0\AndroidManifest.xml:13:17-129
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\51377645727de15dc9fd8a68bea107ef\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\51377645727de15dc9fd8a68bea107ef\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\51377645727de15dc9fd8a68bea107ef\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\51377645727de15dc9fd8a68bea107ef\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\51377645727de15dc9fd8a68bea107ef\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\51377645727de15dc9fd8a68bea107ef\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\f604fd4c661a2ea36944234808470327\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\f604fd4c661a2ea36944234808470327\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\f604fd4c661a2ea36944234808470327\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Pichau\.gradle\caches\8.13\transforms\1a968ec80d279fce87918865758033f3\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
 	android:authorities

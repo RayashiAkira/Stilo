@@ -23,12 +23,12 @@ id login_email
 id login_password
 id main
 id nome
-id numero
 id signup_button
 id signup_confirm
 id signup_email
 id signup_password
 id tab_layout
+id telefone
 id text_go_to_login
 id text_go_to_signup
 id view_pager
