@@ -1,6 +1,6 @@
-# EcoMatch
+# Stilo
 
-Este projeto tem o objetivo de criar um aplicativo de localização de pontos de reciclagem, com a finalidade de incentivar a população a recolher e reciclar lixos encontrados em espaços públicos. O nome do aplicativo é "Eco Match".
+Este projeto tem o objetivo de criar uma plataforma de conexão entre o usuário e um prestador de serviços em relação a beleza
 
 O aplicativo conta com uma tela de autenticação que inclui as opções de login e cadastro de usuários, implementadas por meio de abas navegáveis.
 
