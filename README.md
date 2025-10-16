@@ -2,7 +2,7 @@
 
 Este projeto tem o objetivo de criar uma plataforma de conexão entre o usuário e um prestador de serviços em relação a beleza.
 
-O aplicativo conta com uma tela de autenticação que inclui as opções de login e cadastro de usuários, implementadas por meio de abas navegáveis.
+O aplicativo conta com uma tela de autenticação que inclui as opções de login e cadastro de usuários, implementadas por meio de abas navegáveis. Além de um registro dos cadastros no Firebase para que seja possível atrelar as informações dos usuários para o banco de dados.
 
 ## Funcionalidades
 -   Interface de usuário para cadastro e login.
