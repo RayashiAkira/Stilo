@@ -1,16 +1,39 @@
+# 1. Arquivos de Projeto da IDE (Android Studio, IntelliJ)
+############################################################
 *.iml
-.gradle
+.DS_Store
 /local.properties
+.externalNativeBuild
+.cxx
+
+# Diretórios .idea que contêm arquivos gerados e de sessão
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
-.DS_Store
+
+# Variações de arquivos IML ou de módulos
+*.im?
+
+
+# 2. Arquivos e Diretórios Gerados pelo Gradle e Build
+############################################################
 /build
 /captures
-.externalNativeBuild
-.cxx
-local.properties
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+/app/build/
 
+
+# 3. Arquivos de Configuração Sensíveis (Firebase)
+############################################################
+# ESTES ARQUIVOS DEVEM SER IGNORADOS POR CONTEREM CHAVES PRIVADAS/SECRETS
+# O arquivo AIzaSyAfvwxA6RkJFmQDsYNYdYcudLEfFv0vLjI parece ser um SDK de Admin do Firebase,
+# que contém chaves secretas e NUNCA deve ser comitado.
+device-streaming-fbaf487b-firebase-adminsdk-fbsvc-e53fa47b8b.json
+AIzaSyAfvwxA6RkJFmQDsYNYdYcudLEfFv0vLjI

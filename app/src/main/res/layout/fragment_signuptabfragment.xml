@@ -38,6 +38,26 @@
                 android:padding="2dp" />
 
             <EditText
+                android:id="@+id/data_nascimento"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_bkg"
+                android:clickable="true"
+                android:focusable="false"
+                android:hint="Data de Nascimento"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/outline_date_range_24"
+                android:drawablePadding="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/confirm_password" />
+
+            <EditText
                 android:id="@+id/telefone"
                 android:layout_width="300dp"
                 android:layout_height="60dp"
@@ -48,6 +68,7 @@
                 android:drawablePadding="8dp"
                 android:hint="Telefone"
                 android:inputType="phone"
+                android:maxLength="13"
                 android:padding="8dp" />
 
             <EditText

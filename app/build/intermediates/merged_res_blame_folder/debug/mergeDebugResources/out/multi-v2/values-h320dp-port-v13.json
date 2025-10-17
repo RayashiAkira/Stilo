@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.teladecadastro.app-mergeDebugResources-38:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "outputFile": "com.example.stilo.app-mergeDebugResources-41:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Pichau\\.gradle\\caches\\8.13\\transforms\\64c04b83c68809e85d79134eda17d76b\\transformed\\material-1.10.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "C:\\Users\\Pichau\\.gradle\\caches\\8.13\\transforms\\442a639f20eecdeba06390b70bcae768\\transformed\\material-1.10.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

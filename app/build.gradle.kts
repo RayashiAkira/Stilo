@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.teladecadastro"
+    namespace = "com.example.stilo"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.teladecadastro"
+        applicationId = "com.example.stilo"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -41,11 +41,11 @@ dependencies {
     implementation(libs.media3.common)
 
     // Adicione a plataforma do Firebase para todas as dependências
-    implementation(platform("com.google.firebase:firebase-bom:33.1.2"))
+    implementation(platform("com.google.firebase:firebase-bom:34.0.0"))
 
     // Dependências do Firebase
     implementation(libs.firebase.auth)
-    implementation("com.google.firebase:firebase-firestore-ktx")
+    implementation("com.google.firebase:firebase-firestore")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)

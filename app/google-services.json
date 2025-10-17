@@ -7,9 +7,28 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:527754977851:android:4a141fed490565396ab21e",
+        "android_client_info": {
+          "package_name": "com.example.stilo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfvwxA6RkJFmQDsYNYdYcudLEfFv0vLjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:527754977851:android:5ba32a84264e3db66ab21e",
         "android_client_info": {
-          "package_name": "com.example.teladecadastro"
+          "package_name": "com.example.stilo"
         }
       },
       "oauth_client": [],
