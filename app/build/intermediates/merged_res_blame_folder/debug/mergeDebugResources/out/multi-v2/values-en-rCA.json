@@ -1,44 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.teladecadastro.app-mergeDebugResources-38:/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "com.example.stilo.app-mergeDebugResources-41:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Pichau\\.gradle\\caches\\8.13\\transforms\\a5c03457932c60be89ec69ada7cd543f\\transformed\\credentials-1.2.0-rc01\\res\\values-en-rCA\\values-en-rCA.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,167",
-                        "endColumns": "111,113",
-                        "endOffsets": "162,276"
-                    },
-                    "to": {
-                        "startLines": "29,30",
-                        "startColumns": "4,4",
-                        "startOffsets": "2762,2874",
-                        "endColumns": "111,113",
-                        "endOffsets": "2869,2983"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Pichau\\.gradle\\caches\\8.13\\transforms\\dc29526ca7245410cd392e5e29fc4fb0\\transformed\\core-1.9.0\\res\\values-en-rCA\\values-en-rCA.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "36",
-                        "startColumns": "4",
-                        "startOffsets": "3474",
-                        "endColumns": "100",
-                        "endOffsets": "3570"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Pichau\\.gradle\\caches\\8.13\\transforms\\e37a1e3d70ac6c8799d9b96dca929152\\transformed\\appcompat-1.6.1\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\Pichau\\.gradle\\caches\\8.13\\transforms\\70e0dc3b42193ba203ef0a9cc4c132e9\\transformed\\appcompat-1.6.1\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Pichau\\.gradle\\caches\\8.13\\transforms\\1a00be705ec315da8897cc743d03788b\\transformed\\browser-1.4.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\Pichau\\.gradle\\caches\\8.13\\transforms\\11c5f06f516df7e9b697b5fab26d255f\\transformed\\browser-1.4.0\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -69,6 +35,40 @@
                         "startOffsets": "2988,3086,3183,3292",
                         "endColumns": "97,96,108,98",
                         "endOffsets": "3081,3178,3287,3386"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Pichau\\.gradle\\caches\\8.13\\transforms\\73c7a335958a73d8270b872a32d89546\\transformed\\credentials-1.2.0-rc01\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,167",
+                        "endColumns": "111,113",
+                        "endOffsets": "162,276"
+                    },
+                    "to": {
+                        "startLines": "29,30",
+                        "startColumns": "4,4",
+                        "startOffsets": "2762,2874",
+                        "endColumns": "111,113",
+                        "endOffsets": "2869,2983"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Pichau\\.gradle\\caches\\8.13\\transforms\\e16be9ad8387b4a01ba5429ba7cf8b38\\transformed\\core-1.9.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "36",
+                        "startColumns": "4",
+                        "startOffsets": "3474",
+                        "endColumns": "100",
+                        "endOffsets": "3570"
                     }
                 }
             ]

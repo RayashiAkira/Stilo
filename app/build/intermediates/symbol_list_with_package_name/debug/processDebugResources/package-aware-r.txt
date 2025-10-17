@@ -1,4 +1,4 @@
-com.example.teladecadastro
+com.example.stilo
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -3094,6 +3094,7 @@ drawable notify_panel_notification_icon_bg
 drawable outline_boy_24
 drawable outline_cloud_lock_24
 drawable outline_crossword_24
+drawable outline_date_range_24
 drawable outline_deskphone_24
 drawable signimg
 drawable tab_bkg
@@ -3231,6 +3232,7 @@ id closest
 id collapseActionView
 id compress
 id confirm_button
+id confirm_password
 id constraint
 id container
 id content
@@ -3246,6 +3248,7 @@ id custom
 id customPanel
 id cut
 id dark
+id data_nascimento
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -3353,6 +3356,7 @@ id list_item
 id login_button
 id login_email
 id login_password
+id logout_button
 id m3_side_sheet
 id main
 id marquee
@@ -3468,6 +3472,11 @@ id pin
 id position
 id postLayout
 id pressed
+id profile_dob
+id profile_email
+id profile_name
+id profile_phone
+id profile_title
 id progress_circular
 id progress_horizontal
 id radio

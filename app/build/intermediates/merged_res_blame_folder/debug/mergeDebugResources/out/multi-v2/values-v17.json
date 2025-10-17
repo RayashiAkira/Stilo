@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.teladecadastro.app-mergeDebugResources-38:/values-v17/values-v17.xml",
+            "outputFile": "com.example.stilo.app-mergeDebugResources-41:/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Pichau\\.gradle\\caches\\8.13\\transforms\\e37a1e3d70ac6c8799d9b96dca929152\\transformed\\appcompat-1.6.1\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\Pichau\\.gradle\\caches\\8.13\\transforms\\70e0dc3b42193ba203ef0a9cc4c132e9\\transformed\\appcompat-1.6.1\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

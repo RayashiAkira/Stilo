@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Eco Match"
+rootProject.name = "Stilo"
 include(":app")

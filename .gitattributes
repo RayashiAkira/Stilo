@@ -1,0 +1,12 @@
+# Definir o comportamento padrão para normalizar arquivos de texto.
+* text=auto
+
+# Forçar a normalização para tipos de arquivos comuns em projetos Android.
+*.java text
+*.kt text
+*.xml text
+*.gradle text
+*.kts text
+*.pro text
+*.md text
+*.json text
