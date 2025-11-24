@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores Base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="placeholderBackground">#E0E0E0</color>
+
+    <!-- Tema Principal -->
+    <color name="primary">#00167a</color>
+    <color name="primary_dark">#000c42</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <color name="search_bar_text_color">@color/primary</color>
+    <color name="icon_tint_color">@color/primary</color>
+    <color name="home_text_color">@color/primary</color>
+
+    <!-- Cor para texto dos cartões -->
+    <color name="card_text_color">@color/primary</color>
+    
+    <!-- Cores para o Gráfico de Finanças -->
+    <color name="plan_color">#8A2BE2</color> <!-- Roxo -->
+    <color name="service_color">#FFA500</color> <!-- Laranja -->
+    <color name="income_color">#4CAF50</color> <!-- Verde -->
+    <color name="expense_color">#F44336</color> <!-- Vermelho -->
+</resources>

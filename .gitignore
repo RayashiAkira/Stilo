@@ -1,0 +1,84 @@
+    # Ignorar arquivos gerados pelo Gradle e Android Studio
+    .gradle/
+    /local.properties
+    .idea/workspace.xml
+    .idea/tasks.xml
+    .idea/libraries/
+    .idea/*.iml
+    .idea/modules.xml
+    .idea/navEditor.xml
+    .idea/assetWizardSettings.xml
+    .idea/caches/
+    .idea/libraries/
+    .idea/compiler.xml
+    .idea/copyright/
+    .idea/dictionaries/
+    .idea/vcs.xml
+    .idea/encodings.xml
+    .idea/gradle.xml
+    .idea/jarRepositories.xml
+    .idea/misc.xml
+    .idea/render.experimental.xml
+    .idea/runConfigurations.xml
+    .idea/shelf/
+    .idea/sonarlint/
+    
+    /build/
+    /captures/
+    .externalNativeBuild/
+    .cxx/
+    local.properties
+    
+    *.iml
+    *.ap_
+    *.apk
+    *.aab
+    *.class
+    *.jar
+    *.dex
+    *.env
+    
+    # Kotlin/Java generated files
+    *.kotlin_module
+    
+    # Android build output
+    build/
+    
+    # Keystore files
+    *.jks
+    *.keystore
+    
+    # Crashlytics/Fabric
+    fabric.properties
+    
+    # Per-user config for Android Studio
+    .vscode/
+    
+    # NDK projects
+    .cxx/
+    
+    # Android build output
+    build/
+    
+    # Additional common ignores for Android projects
+    .DS_Store
+    Thumbs.db
+    .localized
+    .project
+    .settings
+    .vs/
+    
+    # Add any other generated folders you see constantly conflicting
+    # app/build/
+    # If app/build/ is still tracked, you might need to add it again here.
+    # Note: If you manually added app/build to git, you might need:
+    # git rm -r --cached app/build
+    # Then add 'app/build/' to .gitignore and commit.
+    
+# Project exclude paths
+/.gradle/
+/app/build/
+/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/
+/app/build/intermediates/javac/debugAndroidTest/compileDebugAndroidTestJavaWithJavac/classes/
+/app/build/intermediates/javac/debugUnitTest/compileDebugUnitTestJavaWithJavac/classes/
+/build/

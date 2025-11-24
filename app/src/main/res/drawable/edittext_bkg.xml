@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fundo transparente ou use ?attr/colorSurface para um fundo adaptável -->
+    <solid android:color="@android:color/transparent"/>
+
+    <!-- Borda (stroke) que agora usa o atributo de tema principal -->
+    <stroke android:width="2dp" android:color="?attr/colorPrimary"/>
+
+    <!-- Cantos arredondados -->
+    <corners android:radius="30dp"/>
+</shape>

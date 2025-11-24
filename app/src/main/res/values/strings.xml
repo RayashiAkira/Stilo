@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Stilo</string>
+    <string name="home_tagline">Onde o Estilo Encontra <b>Você.</b></string>
+    <string name="greeting">Olá, Lana!</string>
+    <string name="search_hint">Buscar por estabelecimentos</string>
+    <string name="agendamentos">Agendamentos</string>
+    <string name="financeiro">Financeiro</string>
+    <string name="planos">Planos</string>
+    <string name="beneficios">Benefícios</string>
+    <string name="access_profile">Acessar Perfil</string>
+    <string name="carousel_images">Carrossel de Imagens</string>
+
+    <string name="n_o_tem_cadastro_cadastre_se_aqui">Não tem cadastro? Cadastre-se aqui.</string>
+
+    <string name="texto_termos_completos">
+        "<![CDATA[
+        <h2 style=\"text-align: center;\">TERMOS DE USO E CONDIÇÕES DE SERVIÇO (TOS) - STILO</h2>
+
+        <p>Bem-vindo ao <b>Stilo</b>! Estes Termos de Uso regem a utilização da nossa plataforma de intermediação de serviços. Ao acessar ou utilizar o Stilo, você concorda em vincular-se a estes Termos.</p>
+
+        <br><br>
+
+        <b>CAPÍTULO I: TERMOS DE USO</b>
+
+        <br><br>
+
+        <b>1. O Serviço Stilo (Intermediação)</b>
+        <br>
+        O Stilo é uma plataforma tecnológica (marketplace) que atua exclusivamente como **intermediador**, conectando Clientes (usuários que solicitam serviços) a Prestadores de Serviço (profissionais autônomos que oferecem serviços).
+        <br>
+        O Stilo <b>NÃO</b> é um empregador, prestador de serviço direto ou agência. A contratação dos serviços é realizada diretamente entre o Cliente e o Prestador, que são partes independentes. O Stilo não se responsabiliza pela qualidade, segurança ou legalidade dos serviços prestados.
+
+        <br><br>
+
+        <b>2. Responsabilidades do Usuário (Geral)</b>
+        <br>
+        <ul>
+            <li><b>Registro:</b> Você é responsável por manter a precisão e a atualização de seus dados de cadastro (nome, e-mail, CPF/CNPJ, etc.).</li>
+            <li><b>Segurança da Conta:</b> A guarda de sua senha e a confidencialidade de sua conta são de sua exclusiva responsabilidade.</li>
+            <li><b>Conduta:</b> Você concorda em utilizar a plataforma de forma lícita, respeitosa e em conformidade com as leis vigentes. É proibido o uso da plataforma para fraude ou qualquer atividade ilícita.</li>
+        </ul>
+
+        <br>
+
+        <b>3. Para Prestadores de Serviço (Adicional)</b>
+        <br>
+        <ul>
+            <li><b>Verificação:</b> O Prestador deve fornecer documentos e informações verdadeiras para verificação de identidade e qualificação profissional. O Stilo se reserva o direito de suspender a conta do Prestador em caso de não conformidade ou má conduta reiterada.</li>
+            <li><b>Preços e Pagamento:</b> O Prestador define seus preços e é responsável por emitir notas fiscais ou recibos ao Cliente, quando aplicável. O Stilo atuará como facilitador de pagamento.</li>
+        </ul>
+
+        <br>
+
+        <b>4. Disputas e Avaliações</b>
+        <br>
+        O Stilo oferece um mecanismo de avaliação por estrelas e comentários. O Cliente e o Prestador concordam em utilizar este sistema de boa-fé. Em caso de disputas de pagamento ou qualidade, o Stilo pode tentar mediar, mas não garante a resolução ou reembolso, que dependerão dos termos de pagamento e das evidências apresentadas.
+
+        <br><br><br>
+
+        <h2 style=\"text-align: center;\">POLÍTICA DE PRIVACIDADE (LGPD)</h2>
+
+        <p>A sua privacidade é uma prioridade para o Stilo. Esta política descreve como coletamos, usamos, armazenamos e protegemos suas informações pessoais, em conformidade com a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018).</p>
+
+        <br><br>
+
+        <b>1. Dados Coletados</b>
+        <br>
+        <ul>
+            <li><b>Dados de Cadastro:</b> Nome completo, e-mail, telefone, CPF/CNPJ (para Prestadores), e dados de pagamento.</li>
+            <li><b>Dados de Localização:</b> Coletamos dados de geolocalização do seu dispositivo (com o seu consentimento) para viabilizar a conexão entre Clientes e Prestadores próximos.</li>
+            <li><b>Dados de Serviço:</b> Histórico de solicitações, transações, avaliações e comunicações dentro do chat da plataforma.</li>
+        </ul>
+
+        <br>
+
+        <b>2. Finalidade do Uso dos Dados</b>
+        <br>
+        Seus dados são utilizados para:
+        <ul>
+            <li><b>Execução do Contrato:</b> Operacionalizar o serviço de intermediação, incluindo correspondência (matching) entre usuários e processamento de pagamentos.</li>
+            <li><b>Segurança e Prevenção:</b> Verificar a identidade dos usuários para prevenir fraudes e garantir a segurança de todos.</li>
+            <li><b>Comunicação:</b> Enviar notificações de serviço (status de pedido, chat) e, com seu consentimento, comunicações de marketing.</li>
+        </ul>
+
+        <br>
+
+        <b>3. Compartilhamento de Dados</b>
+        <br>
+        Compartilhamos seus dados apenas nas seguintes situações:
+        <ul>
+            <li><b>Com a Outra Parte da Transação:</b> Para viabilizar o serviço (ex: nome do Cliente e localização para o Prestador, e perfil do Prestador para o Cliente).</li>
+            <li><b>Com Terceiros Parceiros:</b> Com processadores de pagamento e provedores de hospedagem (como o Firebase que você está usando), que estão obrigados por contrato a manter a confidencialidade e segurança dos dados.</li>
+            <li><b>Exigência Legal:</b> Quando legalmente obrigados a fazê-lo por ordem judicial ou para cumprir com regulamentos.</li>
+        </ul>
+
+        <br>
+
+        <b>4. Direitos do Titular (LGPD)</b>
+        <br>
+        Você tem o direito de solicitar a qualquer momento:
+        <ul>
+            <li>Confirmação da existência de tratamento e acesso aos dados.</li>
+            <li>Correção de dados incompletos ou desatualizados.</li>
+            <li>Anonimização, bloqueio ou eliminação de dados desnecessários ou tratados em desconformidade com a lei.</li>
+            <li>Revogação do consentimento, com o entendimento de que isso pode inviabilizar o uso de certas funcionalidades do Stilo.</li>
+        </ul>
+
+        <br>
+
+        <b>5. Encarregado de Dados (DPO)</b>
+        <br>
+        Dúvidas sobre esta Política podem ser direcionadas ao nosso Encarregado de Dados (DPO) através do e-mail \"stilo.contato@gmail.com\".
+        ]]>"
+    </string>
+    <string name="title_activity_prestador_maps">Mapa do Prestador</string>
+    <string name="termos_de_uso_e_privacidade">Eu li e aceito os <b><u>Termos de Uso</u></b> e <b><u>Acordo de Privacidade</u></b></string>
+
+    <string-array name="plan_categories">
+        <item>Barbearia</item>
+        <item>Cabelereiro</item>
+        <item>Massagem</item>
+        <item>Unha/Sobrancelha</item>
+    </string-array>
+
+</resources>

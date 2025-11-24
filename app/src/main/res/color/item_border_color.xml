@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Modo Claro (Padrão) -->
+    <item android:color="@color/primary" android:state_enabled="true"/>
+    <!-- Outros estados podem ser definidos aqui -->
+</selector>

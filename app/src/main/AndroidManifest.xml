@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/iconestilonovo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/iconestilonovo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Stilo"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <!-- TELA DE SPLASH (NOVA TELA INICIAL) -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:noHistory="true"
+            android:theme="@style/Theme.App.Starting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Telas de Apresentação -->
+        <activity
+            android:name=".Apresentacao1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Apresentacao2Activity"
+            android:exported="false" />
+
+        <!-- Activity de Autenticação -->
+        <activity
+            android:name=".AuthenticationActivity"
+            android:exported="false" />
+
+        <!-- Telas Principais -->
+        <activity
+            android:name=".HomeClienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomePrestadorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PromotionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RedemptionHistoryActivity"
+            android:exported="false" />
+
+        <!-- Telas de Perfil -->
+        <activity
+            android:name=".PerfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerfilClienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProviderProfileActivity"
+            android:exported="false" />
+
+        <!-- NOVAS TELAS DE AGENDAMENTO -->
+        <activity
+            android:name=".GerenciarAgendaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MeusAgendamentosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RealizacaoAgendamentosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AgendarHorarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EncontrarClienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManagePhotosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManagePlansActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyPlansActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FinancesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FinancesProviderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdvantageActivity"
+            android:exported="false" />
+
+        <!-- TELA DE TERMOS E PRIVACIDADE -->
+        <activity
+            android:name=".LegalActivity"
+            android:exported="false" />
+
+        <!-- TELA DE VERIFICAÇÃO DE EMAIL -->
+        <activity
+            android:name=".VerifyEmailActivity"
+            android:exported="false" />
+
+        <!-- Configuração do Google Maps -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA-wn95Nsp5dsVBaut_i6jslojAIgomKnM" />
+
+    </application>
+
+</manifest>

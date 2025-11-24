@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/activity_background"
+    tools:context=".LegalActivity">
+
+    <TextView
+        android:id="@+id/legal_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Termos e Privacidade"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_color_selector"
+        android:layout_marginBottom="16dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/legal_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_termos_completos"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/text_color_selector"
+            android:textSize="16sp"/>
+
+    </ScrollView>
+
+</LinearLayout>

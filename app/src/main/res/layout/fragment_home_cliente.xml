@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?android:attr/colorBackground"
+    tools:context=".HomeClienteActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Cabeçalho -->
+        <RelativeLayout
+            android:id="@+id/header_layout"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/perfilnome"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+
+            <ImageButton
+                android:id="@+id/profile_icon_button"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/access_profile"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sharp_account_circle_24"
+                app:tint="@android:color/white" />
+
+            <TextView
+                android:id="@+id/greeting_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="16dp"
+                android:layout_toEndOf="@+id/profile_icon_button"
+                android:text="@string/greeting"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <!-- Conteúdo -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header_layout"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home_tagline"
+                android:textColor="@color/search_bar_text_color"
+                android:textSize="18sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/search_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/canto_arredondados"
+                android:drawableStart="@drawable/outline_manage_search_24"
+                android:drawablePadding="8dp"
+                android:hint="@string/search_hint"
+                android:padding="12dp"
+                android:textColor="@color/search_bar_text_color"
+                android:textColorHint="@color/search_bar_text_color" />
+
+            <!-- Carrossel de Imagens -->
+            <ViewFlipper
+                android:id="@+id/carousel_flipper"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/search_bar"
+                android:layout_marginTop="32dp"
+                android:autoStart="true"
+                android:flipInterval="3000"
+                android:inAnimation="@android:anim/fade_in"
+                android:outAnimation="@android:anim/fade_out" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/painel1"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="@null"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/painel3"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="@string/carousel_images"/>
+
+            </ViewFlipper>
+
+            <GridLayout
+                android:id="@+id/actions_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/carousel_flipper"
+                android:layout_marginTop="19dp"
+                android:alignmentMode="alignMargins"
+                android:columnCount="2"
+                android:columnOrderPreserved="false"
+                android:rowCount="2"
+                android:useDefaultMargins="true">
+
+                <LinearLayout
+                    android:id="@+id/agendamentos_button"
+                    style="@style/HomeButtonContainer"
+                    android:background="@drawable/button_rounded_border">
+
+                    <ImageView
+                        style="@style/HomeButtonIcon"
+                        android:src="@drawable/outline_date_range_24"
+                        android:contentDescription="@null"/>
+
+                    <TextView
+                        style="@style/HomeButtonText"
+                        android:text="@string/agendamentos"
+                        android:textColor="?attr/colorOnSurface" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/financeiro_button"
+                    style="@style/HomeButtonContainer"
+                    android:background="@drawable/button_rounded_border">
+
+                    <ImageView
+                        style="@style/HomeButtonIcon"
+                        android:src="@drawable/outline_credit_card_24"
+                        android:contentDescription="@null"/>
+
+                    <TextView
+                        style="@style/HomeButtonText"
+                        android:text="@string/financeiro"
+                        android:textColor="?attr/colorOnSurface" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/planos_button"
+                    style="@style/HomeButtonContainer"
+                    android:background="@drawable/button_rounded_border">
+
+                    <ImageView
+                        style="@style/HomeButtonIcon"
+                        android:src="@drawable/outline_assignment_24"
+                        android:contentDescription="@null"/>
+
+                    <TextView
+                        style="@style/HomeButtonText"
+                        android:text="@string/planos"
+                        android:textColor="?attr/colorOnSurface" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/beneficios_button"
+                    style="@style/HomeButtonContainer"
+                    android:background="@drawable/button_rounded_border">
+
+                    <ImageView
+                        style="@style/HomeButtonIcon"
+                        android:src="@drawable/outline_cards_star_24"
+                        android:contentDescription="@null"/>
+
+                    <TextView
+                        style="@style/HomeButtonText"
+                        android:text="@string/beneficios"
+                        android:textColor="?attr/colorOnSurface" />
+                </LinearLayout>
+
+            </GridLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>

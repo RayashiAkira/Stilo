@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".PerfilActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/profile_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Meu Perfil"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/primary"/>
+
+            <!-- Card de Informações Pessoais -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_card_background"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="8dp"
+                    android:padding="4dp"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
+                    app:strokeColor="@color/primary"
+                    app:strokeWidth="2dp"
+                    android:src="@drawable/sharp_account_circle_24" />
+
+                <TextView
+                    android:id="@+id/profile_user_type"
+                    style="@style/TextAppearance.Material3.TitleMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/primary"
+                    tools:text="Cliente"/>
+
+                 <TextView
+                    android:id="@+id/profile_main_name"
+                    style="@style/TextAppearance.Material3.BodyLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:drawableStart="@drawable/outline_person_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:text="Carregando..."/>
+
+                <TextView
+                    android:id="@+id/profile_secondary_name"
+                    style="@style/TextAppearance.Material3.BodyLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:drawableStart="@drawable/outline_business_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:text="Carregando..." />
+
+                <TextView
+                    android:id="@+id/profile_document"
+                    style="@style/TextAppearance.Material3.BodyLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:drawableStart="@drawable/outline_badge_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:text="Carregando..." />
+
+                <TextView
+                    android:id="@+id/profile_dob"
+                    style="@style/TextAppearance.Material3.BodyLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:drawableStart="@drawable/outline_calendar_today_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:text="Carregando..." />
+            </LinearLayout>
+
+            <!-- Card de Contato e Endereço -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_card_background"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    style="@style/TextAppearance.Material3.TitleMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:textColor="@color/primary"
+                    android:text="Informações Adicionais"/>
+
+                <TextView
+                    android:id="@+id/profile_email"
+                    style="@style/TextAppearance.Material3.BodyLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/outline_email_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:text="Carregando..."/>
+
+                <TextView
+                    android:id="@+id/profile_phone"
+                    style="@style/TextAppearance.Material3.BodyLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:drawableStart="@drawable/outline_phone_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:text="Carregando..." />
+
+                <TextView
+                    android:id="@+id/profile_address"
+                    style="@style/TextAppearance.Material3.BodyLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:drawableStart="@drawable/outline_location_on_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:text="Carregando..."/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/back_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="32dp"
+                android:text="Voltar"
+                app:backgroundTint="@color/primary"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/logout_button"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="8dp"
+                android:text="Sair da Conta"
+                android:textColor="?attr/colorError"
+                app:strokeColor="?attr/colorError" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_edit_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        app:backgroundTint="@color/primary"
+        app:tint="@android:color/white"
+        app:srcCompat="@drawable/outline_border_color_24"
+        android:contentDescription="Editar Perfil" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

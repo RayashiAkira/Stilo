@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/edit_text_expense_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome da Despesa"
+        android:inputType="textCapWords"/>
+
+    <EditText
+        android:id="@+id/edit_text_expense_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor (R$)"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo de Despesa"
+        android:layout_marginTop="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group_expense_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_button_plan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plano"/>
+
+        <RadioButton
+            android:id="@+id/radio_button_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Serviço"
+            android:layout_marginStart="16dp"/>
+    </RadioGroup>
+
+</LinearLayout>
